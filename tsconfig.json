@@ -7,5 +7,19 @@
     {
       "path": "./tsconfig.app.json"
     }
-  ]
+  ],
+  "compilerOptions": {
+    "module": "ESNext",    
+    "target": "es5",
+    "removeComments": true,
+    "sourceMap": true,
+    "alwaysStrict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "lib": ["es5", "dom", "es2015.collection"]
+  }
 }
